@@ -1,0 +1,22 @@
+{
+    "name": "marx88/csv",
+    "description": "csv tool based on php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marx\\Csv\\": "src/",
+            "Marx\\Csv\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marx",
+            "email": "marx_88@126.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4||^8.0",
+        "ext-mbstring": "*"
+    }
+}
